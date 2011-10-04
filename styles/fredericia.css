@@ -15,3 +15,143 @@
   overflow: hidden;
 }
 
+/* sogeeksempler under sogeboks FL */
+
+#ting-search-form div.example p {
+    float: left;
+    visibility: hidden;
+}
+	
+#ting-search-form div.example li a {
+    color: #E5E5E5;
+    visibility: hidden;
+}
+
+/*  Facet browser gron link til sort FL */
+
+#ting-facet-browser li li {
+    color: #2D2D2D;
+}
+
+/* Facet browser font fra 10px til 11 px  FL */
+
+#ting-facet-browser li * {
+    font-size: 11px;
+    font-weight: normal;
+}
+
+/* Reservationsliste gron link FL */
+
+.pane-ding_reservation_list_form .update-controls-button .edit-remove #edit-remove {
+    background: url("/profiles/ding/themes/dynamo/images/trash.png") no-repeat scroll 0 50% transparent;
+    border: 0 none;
+    color: #2D2D2D;
+    cursor: pointer;
+    height: 24px;
+    padding-left: 24px;
+}
+
+
+/*  Gron link sider farve #9CB333 til #2D2D2D undtagen dot linie i hovedmenu FL */ 
+
+a, a:link, a:visited, a:active {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.meta a, .meta a:link, .meta a:visited, .meta a:active {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.author a, .author a:link, .author a:visited, .author a:active {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+.subject a {
+    background-color: #2D2D2D;
+    color: #FFFFFF;
+    font-size: 9px;
+    line-height: 9px;
+    padding: 0 2px;
+    text-transform: uppercase;
+}
+
+#pager a, #pager a:link, #pager a:active {
+    color: #2D2D2D;
+    text-decoration: none;
+}
+
+ul.pager li a {
+    color: #2D2D2D;
+    font-size: 9px;
+	padding: 6px 0;
+}
+
+.view-user-comments-list .subject a, .view-user-comments-list .subject a:link, .view-user-comments-list .subject a:visited, .view-user-comments-list .subject a:active {
+    background: none repeat scroll 0 0 transparent;
+    color: #2D2D2D;
+    font-size: 10px;
+    text-transform: none;
+}
+
+ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {
+    color: #2D2D2D;
+    font-weight: bold;
+}
+
+/* Pane - relateret indhold FL */
+
+.pane-recommendation_list ul.ting-recommendation li a {
+    color: #2D2D2D;
+    display: inline;
+}
+
+/* Periodical FL */
+
+#periodical-issue-list .year h3 {
+    background: url("/profiles/ding/themes/dynamo/images/bullet_toggle_plus.gif") no-repeat scroll 0 50% transparent;
+    color: #2D2D2D;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 15px;
+}
+
+#periodical-issue-list a {
+    color: #2D2D2D;
+}
+
+/* sogeformular tekst til sort - FL */
+
+#ting-search-form .form-text {
+    background: url("/profiles/ding/themes/dynamo/images/magnifier.png") no-repeat scroll 9px 5px #FFFFFF;
+    border: 1px solid #999999;
+    color: #000000;
+    float: left;
+    font-size: 13px;
+    height: 20px;
+    margin: 0 10px 0 0;
+    padding: 4px 0 0 25px;
+    width: 468px;
+}
+
+/* Knapper - avisartikel - fra graa til sort FL */
+
+#ting-search-result .types li, .types li {
+    background-color: #CCCCCC;
+    color: #2D2D2D;
+}
+
+/* knapper - orange og gron - reservere og huskelist - font fra 9px til 10px FL */
+
+.ting-item ul.buttons li a, .ting-overview ul.buttons li a {
+    background: url("/profiles/ding/themes/dynamo/images/sprite-knapper-reservering.png") no-repeat scroll left -60px transparent;
+    color: #FFFFFF;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 10px;
+    margin: 0;
+    padding: 10px 0 10px 10px;
+}
+
