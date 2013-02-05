@@ -156,7 +156,7 @@ ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {
 }
 .front .panel-top {
   width: 917px;
-  margin-bottom: 24px;
+  margin: 20px 0 24px 0;
 }
 .front .panel-top .pane-tabroll {
   float: left;
