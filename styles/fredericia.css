@@ -154,4 +154,32 @@ ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {
     margin: 0;
     padding: 10px 0 10px 10px;
 }
-
+.front .panel-top {
+  width: 917px;
+  margin-bottom: 24px;
+}
+.front .panel-top .pane-tabroll {
+  float: left;
+}
+.front .panel-top .ding-box-pane {
+  float: right;
+  width: 220px;
+}
+.front .panel-content .panel-left {
+  width: 410px;
+}
+  .front .panel-left .view ul li, .front .panel-left .pane-library_feature_detail_list ul li {
+    background-size: 449px 14px;
+  }
+  .front .panel-left ul.pager {
+    background-size: 429px 14px;
+  }
+  .front  .panel-left ul.pager.item-list li {
+    background-size: auto;
+  }
+.front .panel-content .panel-middle {
+  width: 260px;
+}
+.front .panel-content .panel-right {
+  margin-left: 28px;
+}
