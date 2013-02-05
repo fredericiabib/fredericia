@@ -170,12 +170,17 @@ ul.menu li.leaf > a.active, ul.menu li > a.active, li.active-trail > a {
 }
   .front .panel-left .view ul li, .front .panel-left .pane-library_feature_detail_list ul li {
     background-size: 449px 14px;
+    width: 400px;
   }
   .front .panel-left ul.pager {
     background-size: 429px 14px;
   }
   .front  .panel-left ul.pager.item-list li {
     background-size: auto;
+    width: 54px;
+  }
+  .front  .panel-left ul.pager.item-list li.pager-current {
+    width: 32px;
   }
 .front .panel-content .panel-middle {
   width: 260px;
